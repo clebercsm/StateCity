@@ -28,9 +28,9 @@
 </boby>
 ```
   
-#### Pronto! os elementos serão controlados pelo Módulo StateCity.
+Pronto! os elementos serão controlados pelo Módulo StateCity.
   
-#### Parâmetros opcionais: Opcionalmento poderá ser informado o ID do Estado e ou o ID da Cidade, assim os elementos serão preenchidos automaticamente.
+#### Opcionalmento poderá ser informado o ID do Estado e ou o ID da Cidade, assim os elementos serão preenchidos automaticamente.
 ```
 <boby>
    ...

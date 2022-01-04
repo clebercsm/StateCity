@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StateCity - HTML</title>
+</head>
+<body>
+    <h1>Exemplo com Html</h1>
+
+    <label for="state">Estado</label>
+    <select id="state"></select>
+
+    <label for="city">Cidade</label>
+    <select id="city"></select>
+    
+    <br><br>
+    <a href="../index.html">Voltar</a>
+
+    <!-- Módulo StateCity JS -->
+    <script type="module">
+        import StateCity from '../js/sc-json.mjs'
+        new StateCity(document.querySelector('#state'), document.querySelector('#city'))
+    </script>
+    
+</body>
+</html>

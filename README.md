@@ -41,7 +41,7 @@ Pronto! os elementos serão controlados pelo Módulo StateCity.
    ...
 </boby>  
 ```
-Observação: Os IDs seguem o padrão IBGE e pode ser conferido no arquivo: statecity.json   
+Observação: Os IDs seguem o padrão IBGE e podem ser conferidos no arquivo: statecity.json   
   
 Apenas dois arquivos são necessários, sendo eles: 
   - sc-json.mjs (Módulo JavaScript que ira controlar os elementos)
